@@ -1,8 +1,9 @@
 // JavaScript Document
+/*
 var main = function() {
 	$('.navbar .dropdown').hover(
 		function() {
-			$(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown();
+			$(this).find('.dropdown-menu').slideDown();
 		}, 
 		function() {
 			$(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
@@ -11,3 +12,4 @@ var main = function() {
 };
 
 $(document).ready(main);
+*/

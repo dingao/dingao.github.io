@@ -1,51 +1,126 @@
-body {
-    line-height: 1.5em;
-    color: #666;
-    font-weight: 300;
-    letter-spacing: 0.03em;
-}
-.header-top {
-	background-color: #afbd21;
-}
-.navbar {
-	min-height: inherit;
-	margin-bottom: 0;
-	border: none;
-}
-#menu-top-menu {
-	float: right;
-}
-#menu-top-menu li a {
-    color: #fff;
-    padding-top: 8px;
-    padding-bottom: 7px;
-    font-weight: 300;
-}
-#menu-top-menu li a:hover {
-    background-color: #333;
+/*
+#header-bottom {
+	height: 20px;
+	background-color: 
 }
 
-.logo img {
-	max-width: 299px;
+ul {
+	list-style: none;
 }
-#menu-main-menu {
+li {
+	display: inline-block;
+}
+
+*/
+* {
+	font-family: "Microsoft Yahei";
+}
+html, body, ul {
+	margin: 0;
+	padding: 0;
+}
+ul, ol {
+	list-style: none;
+}
+.header {
+	background-color: #333;
+	color: #fff;
+}
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.header_info {
+	margin: 0;
 	float: right;
 }
-#menu-main-menu > li >a  {
-	color: #666;
-	padding: 35px 0 15px 0;
-	margin-left: 40px;
-	font-size: 16px;
+.header_info li {
+	color: #fff;
+	display: inline-block;
+	padding: 8px 10px;
+	border: 2px solid #333;
+}
+.header_info li:hover {
+	color: #333;
+	background-color: #fff;
+}
+
+/* ======================= */
+
+.header-nav .container .logo{
+	background-image: url("file:///C:/Users/lenovo/Documents/GitHub/dingao.github.io/themes/DA/img/logo2.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 350px;
+}
+.header-nav .nav {
+	margin: 0;
+	padding: 10px 0;
+	float: right;
+	color: #333;
+}
+.header-nav .nav li {
+	display: inline-block;
+}
+.clearfix {
+	clear: both;
+}
+
+/* ======================= */
+.jumbotron {
+	height: 500px;
+	background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.jumbotron .main{
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+.jumbotron .main h1 {
+	margin-top: 0;
+	padding: 0;
+	font-size: 80px;
+}
+.jumbotron .main .btn-main { 
+	font-size: 18px;
+	background-color: #333;
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 40px;
+}
+.jumbotron .btn-main:hover {
 	font-weight: bold;
+	font-size: 20px;
+	background-color: #555;
 }
-#menu-main-menu > li > a:last-of-type {
-	margin-right: 15px;
+
+/* ======================= */
+.supporting {
+	padding-top: 80px;
+	padding-bottom: 100px;
 }
-#menu-main-menu >li.active > a {
-	border-bottom: 8px solid #afbd21;
+.supporting img {
+	height: 32px;
 }
-#menu-main-menu > li > a:hover {
-	color: #afbd21;
-	border-bottom: 8px solid #afbd21;
-	background-color: transparent;
+.supporting .col {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.supporting a {
+	text-decoration: none;
+}
+
+/* ======================= */
+.footer {
+	background-color: #333;
+	padding: 10px 0;
+}
+.footer p {
+	margin: 0;
+	color: #fff;
 }
